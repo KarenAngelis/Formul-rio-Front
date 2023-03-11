@@ -26,9 +26,11 @@ h1 {
   margin: 2em 10%;
 }
 
-.footer {
-  flex-wrap:inherit;
-  justify-content: space-between;
-  width: 80%;
-  margin: 2em 10%;
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin: auto;  
+  text-align: right;
 }
+
